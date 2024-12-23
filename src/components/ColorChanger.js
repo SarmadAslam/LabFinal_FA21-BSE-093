@@ -1,26 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TouchableOpacity,Button } from 'react-native';
+// import { StatusBar } from 'expo-status-bar';
+// import { StyleSheet, Text, View,Button } from 'react-native';
 
-export default function colorChanger({navigation}) {
-  return (
-    <View style={styles.viewStyle}>
-        <Text>Welcome to color changer</Text>
-        <Button title="onIncrese" onPress={()=>{}}/>
-        <Button title="onDecrese" onPress={()=>{}}/>
-    </View>
-  );
-}
+// export default function ColorChanger(props) {
+//   return (
+//     <View style={styles}>
+//         <Text>{props.color}</Text>
+//         <Button title="onIncrese" onPress={()=>{
+//             props.onIncrease()
+//         }}/>
+//         <Button title="onDecrese" onPress={()=>{
+//             props.onDecrease()
+//         }}/>
+//     </View>
+//   );
+// }
 
-const styles = StyleSheet.create({
-    viewStyle:{
-        backgroundColor:'pink',
-        borderRadius: 20,
-        margin:12,
-        padding : 2,
-        alignSelf:'center'
+// const styles = StyleSheet.create({
 
-      },
-      ImageStyle:{
-        borderRadius: 20,
-      }
-    });
+//     });
